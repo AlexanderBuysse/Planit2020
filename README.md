@@ -13,3 +13,6 @@ our idea was to make a planner to rob different things.
 - we had to use Mvc structure and a back-end in PHP
 - This is the first assignement were we had to work with two and with github.
 - also we had to work in sprints
+
+assets are not included
+working site: https://stealit.herokuapp.com/
