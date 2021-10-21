@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="372.183" height="470.721" viewBox="0 0 372.183 470.721">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="372.183" height="470.721" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1173" data-name="Rectangle 1173" width="360.183" height="470.721" transform="translate(98.966 76.088)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_7" data-name="Repeat Grid 7" clip-path="url(#clip-path)">
+    <g id="Group_180" data-name="Group 180">
+      <g id="Group_212" data-name="Group 212">
+        <path id="Path_106" data-name="Path 106" d="M325.111,391.087V74.513l.672.449c7.32-1.06,47.352-8.548,30.144-43.517-11.224-22.81-41.436,0-41.436,0S323.125,0,297.222,0c-23.308,0-18.129,31.444-18.129,31.444h-198S86.273,0,62.96,0c-25.9,0-17.266,31.444-17.266,31.444s-30.216-22.81-41.439,0C-14.642,69.86,35.528,75.1,35.528,75.1V389.629S4.084,384.451,4.084,407.758c0,25.9,31.444,17.268,31.444,17.268s-22.813,30.213,0,41.436c38.415,18.9,43.663-31.267,43.663-31.267l-1.24,1.043H281.622v.08c1.06,7.32,8.546,47.352,43.517,30.144,22.81-11.224,0-41.436,0-41.436s31.444,8.634,31.444-17.268c0-23.308-31.444-18.129-31.444-18.129Z" transform="translate(0)" fill="#8f94a7"/>
+        <rect id="Rectangle_1144" data-name="Rectangle 1144" width="228.557" height="338.57" transform="translate(66.059 68.334)" fill="#f1f3f9"/>
+        <text id="Piet_Mondriaan" data-name="Piet
+Mondriaan" transform="translate(86 82.022)" fill="#0b0b0b" font-size="30" font-family="IndustryInc-Base, Industry Inc"><tspan x="0" y="29">Piet</tspan><tspan x="0" y="67">Mondriaan</tspan></text>
+        <path id="Path_159" data-name="Path 159" d="M35.952,365.29S31.721,344.555,51.684,338.8" fill="none" stroke="#707070" stroke-width="1"/>
+        <g id="Group_213" data-name="Group 213" transform="translate(-7.966 -8.649)">
+          <rect id="Rectangle_1174" data-name="Rectangle 1174" width="147.614" height="108.543" transform="translate(74.024 178.275)" fill="#f2e054" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1175" data-name="Rectangle 1175" width="80.943" height="108.543" transform="translate(221.638 178.275)" fill="none" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1176" data-name="Rectangle 1176" width="144.893" height="35.132" transform="translate(74.024 286.818)" fill="none" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1177" data-name="Rectangle 1177" width="83.665" height="32.868" transform="translate(218.917 289.083)" fill="#343333" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1178" data-name="Rectangle 1178" width="18.702" height="66.1" transform="translate(74.024 323.926)" fill="none" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <path id="Path_164" data-name="Path 164" d="M0,0H88.749V66.1H0Z" transform="translate(92.726 323.926)" fill="#f2e054" stroke="#7a8297" stroke-width="4"/>
+          <rect id="Rectangle_1180" data-name="Rectangle 1180" width="70.983" height="47.99" transform="translate(181.476 323.926)" fill="none" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1181" data-name="Rectangle 1181" width="70.983" height="18.109" transform="translate(181.476 371.916)" fill="#fff" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+          <rect id="Rectangle_1182" data-name="Rectangle 1182" width="50.122" height="68.075" transform="translate(252.459 321.95)" fill="none" stroke="#7a8297" stroke-miterlimit="10" stroke-width="4"/>
+        </g>
+      </g>
+      <g id="Rectangle_1146" data-name="Rectangle 1146" transform="translate(92 389.022)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="184" height="60" stroke="none"/>
+        <rect x="0.5" y="0.5" width="183" height="59" fill="none"/>
+      </g>
+      <text id="Makkelijk" transform="translate(100 397.022)" fill="#0b0b0b" font-size="30" font-family="IndustryInc-Base, Industry Inc"><tspan x="0" y="29">Makkelijk</tspan></text>
+      <path id="Path_114" data-name="Path 114" d="M53.776,282.18c.717-.11,1.283-.185,1.283-.185l3.534-7,5.427-10.749L184,261.984V294.2L67.3,296.987,55.059,282.18" transform="translate(-3 57)" fill="#fff" stroke="#707070" stroke-width="1"/>
+      <text id="_1.000" data-name="€1.000" transform="translate(87.259 343.927) rotate(-3)" fill="#0b0b0b" font-size="18" font-family="IndustryInc-Base, Industry Inc"><tspan x="0" y="0">€1.000</tspan></text>
+    </g>
+  </g>
+</svg>
+
