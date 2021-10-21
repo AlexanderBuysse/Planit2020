@@ -1,0 +1,121 @@
+.crime__image {
+  margin-bottom: -2rem;
+  width: 10rem;
+
+  @media (--only-biggerSmall-screen) {
+    margin-bottom: -2rem;
+  }
+}
+
+.crime {
+  background-color: var(--darkestColor);
+  display: flex;
+  padding: 1rem;
+  width: 85%;
+  font-size: 1rem;
+  color: var(--mainColor);
+  margin-top: 1rem;
+
+  @media (--only-biggerSmall-screen) {
+    padding: 2rem;
+    width: 55vw;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+}
+
+.crime__small {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: light;
+  color: var(--mainColor);
+  margin-bottom: .5rem;
+
+  @media (--only-biggerSmall-screen) {
+    font-size: 1.4rem;
+  }
+}
+
+.crime__progres-bar {
+  width: 25vw;
+
+  @media (--only-biggerSmall-screen) {
+    width: 20vw;
+  }
+}
+
+.crime__button {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: var(--white);
+  background-color: var(--mainColor);
+  font-size: 1rem;
+  padding: .5rem 1rem;
+
+  @media (--only-biggerSmall-screen) {
+    font-size: 1.6rem;
+    padding: 2rem 3rem;
+  }
+}
+
+.crime__button-home {
+  align-self: flex-end;
+  transition: transform 1s;
+  margin-left: 5vw;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+  }
+
+  @media (--only-biggerSmall-screen) {
+    margin-left: 4vw;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.crime__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 1rem;
+
+  @media (--only-biggerSmall-screen) {
+    padding-left: 2rem;
+  }
+}
+/*stylelint-disable*/
+
+.crime__info > *:not(:first-child) {
+  margin-top: 1vw;
+}
+/*stylelint-enable*/
+
+.crime__money {
+  font-size: 1.3rem;
+  color: var(--white);
+
+  @media (--only-biggerSmall-screen) {
+    font-size: 2rem;
+  }
+}
+
+.crime__date {
+  @media (--only-biggerSmall-screen) {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+    margin-left: 1rem;
+  }
+
+}
+
+.crime__progres {
+  @media (--only-biggerSmall-screen) {
+    display: inline;
+  }
+}

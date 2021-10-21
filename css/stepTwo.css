@@ -1,0 +1,113 @@
+.crime__wrapper {
+  margin-bottom: 2rem;
+
+  @media (--only-stepTwoSmall-screen) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (--only-stepTwoMedium) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: flex-start;
+    grid-column-gap: 1vw;
+  }
+}
+
+.crime__form-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @media (--only-stepTwoSmall-screen) {
+    width: 50vw;
+  }
+}
+
+.crime__street {
+  margin-top: 2vw;
+  width: 100%;
+}
+
+.crime__banksort {
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  @media (--only-stepTwoSmall-screen) {
+    width: 12rem;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  @media (--only-stepTwoMedium) {
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.crime__bankinfo {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.crime__bankcontent {
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkColor);
+  margin-bottom: 3rem;
+}
+
+.crime__imgmiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.crime__banktitle {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  background-color: #343333;
+  background-color: var(--darkColor);
+  padding: 1rem;
+  padding-top: 1.5rem;
+
+  @media (--only-stepTwoMedium) {
+    font-size: 1.8vw;
+  }
+}
+
+.crime__inputimg {
+  margin-bottom: 2rem;
+}
+
+.crime__section-bank {
+  width: 100%;
+  background-color: var(--grey);
+
+  @media (--only-stepTwoSmall-screen) {
+    width: 50vw;
+  }
+
+  @media (--only-stepTwoMedium) {
+    width: 15vw;
+  }
+}
+
+.none {
+  @media (--only-stepTwoMedium) {
+    display: none;
+  }
+}

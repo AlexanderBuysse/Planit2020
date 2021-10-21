@@ -1,0 +1,553 @@
+.crime__header {
+  background-color: var(--darkColor);
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crime__chanseofsucces-wrapper {
+  width: 15vw;
+  margin-right: 3rem;
+  padding: 2rem;
+}
+
+.crime__chanseofsucces-barwrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.crime__chanseofsucces-bar {
+  margin-right: 2rem;
+}
+
+.crime__padding {
+  padding: 0 4rem 4rem;
+}
+
+.crime__content {
+  background-color: var(--white);
+  padding: 4rem;
+}
+
+.crime__button-submit {
+  border: none;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.crime__container {
+  padding: 0;
+  box-shadow: var(--borderShadow);
+}
+
+.crime__bankwrapper {
+  color: white;
+}
+
+.suplies_title {
+  background-color: var(--darkColor);
+  height: 3rem;
+  color: var(--white);
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.suplies_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 25vw;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  width: 44vw;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.suplies {
+  width: 12rem;
+  height: 10rem;
+  position: absolute;
+  opacity: 0;
+}
+
+.list_item_one {
+  grid-row: 1;
+  grid-column: 1;
+  width: 20vw;
+}
+
+.list_item_two {
+  grid-row: 1;
+  grid-column: 2;
+  width: 20vw;
+}
+
+.list_item_three {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.list_item_four {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.big {
+  width: 44vw;
+}
+
+.item_three {
+  width: 27rem;
+}
+
+.item_four {
+  width: 27rem;
+}
+
+.basic_suplies {
+  grid-row: 2;
+}
+
+.extra_suplies {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.extra_list {
+  display: grid;
+  grid-template-columns: 14rem 12rem;
+  column-gap: 2rem;
+  grid-template-rows: 1fr 1fr 25vw;
+  width: 44vw;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.extra_one {
+  grid-column: 1;
+  grid-row: 1;
+  width: 20vw;
+}
+
+.extra_two {
+  grid-column: 2;
+  grid-row: 1;
+  width: 20vw;
+}
+
+.extra_three {
+  grid-row: 2;
+  grid-column: 1 /span 2;
+}
+
+.main_chest {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.chest_title {
+  color: var(--mainColor);
+  border: .2rem solid var(--mainColor);
+  width: 15vw;
+  padding: 1vw;
+  padding-top: 1.5vw;
+  margin: 0 auto;
+}
+
+.buttons {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.crime__button-previous {
+  background-color: var(--white);
+  color: var(--grey);
+  border: .2rem solid var(--grey);
+  margin-right: 2rem;
+}
+
+.chest_paragraph {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.slaagkans_chest {
+  background-color: #5491f2;
+  position: relative;
+  width: 15rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.slaagkans__positief {
+  background-color: var(--mainColor);
+}
+
+.slaagkans__negatief {
+  background-color: #5491f2;
+}
+
+.slaagkans__best {
+  background-color: var(--importantColor);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -4rem;
+  margin-left: -1rem;
+}
+
+.slaagkans__best-text {
+  color: var(--mainColor);
+  font-size: 3rem;
+}
+
+.slaagkanst_chestpositie {
+  margin-bottom: -5rem;
+  margin-top: 5rem;
+}
+
+.slaagkans__stapeen {
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+}
+
+.input-crime {
+  padding: 1rem;
+  font-family: industry-inc-base, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 0;
+  border: solid .5rem var(-darkestColor);
+}
+
+.form__inputwrapper {
+  margin-bottom: 2rem;
+}
+
+.calender_container {
+  width: 30vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.month {
+  width: 20rem;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crime__formwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crime__form-img {
+  cursor: pointer;
+  transition: border .2s;
+  width: 30vw;
+
+  &:hover {
+    transition: border .2s;
+    border: 1rem solid rgb(242, 224, 84, .6);
+  }
+}
+
+.crime__form-imgspy {
+  cursor: pointer;
+  transition: border .2s;
+  width: 30vw;
+
+  &:hover {
+    transition: border .2s;
+    border: 1rem solid rgb(242, 224, 84, .6);
+  }
+}
+
+.crime__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weekdays {
+  width: 10rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.weekday {
+  font-weight: bold;
+  letter-spacing: .1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.days {
+  width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.day {
+  font-size: 1.5vw;
+  margin-top: 1rem;
+  width: 2.5rem;
+  transition: background-color .2s;
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+
+.day:active {
+  outline: none;
+  border: .2rem solid black;
+}
+
+.day:focus {
+  outline: 0;
+  border: .2rem solid black;
+}
+
+.prev_days, .next_days {
+  color: lightgray;
+}
+
+.days li:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.today {
+  background-color: var(--mainColor);
+  text-align: center;
+  border-radius: 5rem;
+}
+
+.crime__chanseofsucces-info {
+  color: var(--white);
+  font-size: 2vw;
+  margin-left: -1rem;
+}
+
+.gereedschap {
+  cursor: move;
+}
+
+.gereedschap_item.drag {
+  opacity: .5;
+}
+
+.chest-item {
+  display: none;
+}
+
+.bivak {
+  margin-top: 1rem;
+  width: 30rem;
+}
+
+.image-chest {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+
+  .basic_suplies {
+    grid-row: 2;
+  }
+
+  .extra_suplies {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .days {
+    width: 35rem;
+  }
+
+  .day {
+    font-size: var(--mainFontSize);
+    margin: .3rem;
+    margin-top: 2rem;
+    width: calc(30rem / 7);
+    height: 2rem;
+  }
+
+  .calender_container {
+    height: 35rem;
+  }
+
+  .month {
+    font-size: 2rem;
+  }
+
+  .weekday {
+    font-size: var(--mainFontSize);
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .big {
+    width: 30rem;
+  }
+
+  .list_item_one {
+    width: 14rem;
+  }
+
+  .list_item_two {
+    width: 14rem;
+  }
+
+  .extra_one {
+    width: 14rem;
+  }
+
+  .extra_two {
+    width: 14rem;
+  }
+
+  .suplies_title {
+    width: 30rem;
+    font-size: var(--mainFontSize);
+  }
+
+  .image-chest {
+    width: 30rem;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+  .crime__formwrapper {
+    width: 70vw;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+  .crime__form-img {
+    width: 20vw;
+  }
+
+  .crime__form-imgspy {
+    width: 15vw;
+  }
+
+  .suplies_list {
+    width: 30rem;
+    grid-template-rows: 1fr 1fr 15vw;
+  }
+
+  .form_suplies {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    column-gap: 7vw;
+    grid-row: 1fr 1fr;
+  }
+
+  .main_chest {
+    grid-column: 1 /span 2;
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+  .extra_list {
+    width: 30vw;
+    grid-column: 2;
+  }
+
+  .chest_title {
+    padding: 1rem;
+    width: 11rem;
+    font-size: var(--mainFontSize);
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1230px) {
+
+  .form_suplies {
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 55rem;
+    column-gap: 4vw;
+    margin: 0  auto;
+  }
+
+  .crime__form-img {
+    width: 25rem;
+  }
+
+  .crime__form-imgspy {
+    width: 20rem;
+  }
+
+  .basic_suplies {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .extra_suplies {
+    grid-column: 3;
+    grid-row: 1;
+
+    margin: 0 auto;
+  }
+
+  .main_chest {
+    grid-column: 2;
+    width: 15vw;
+    margin: 0 auto;
+  }
+
+  .crime__chanseofsucces-info {
+    font-size: var(--titleFontSize);
+  }
+
+  .suplies_list {
+    grid-template-rows: 1fr 1fr 9vw;
+  }
+
+  .extra_list {
+    width: 30rem;
+  }
+}

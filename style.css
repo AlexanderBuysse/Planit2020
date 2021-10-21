@@ -1,0 +1,94 @@
+@import '../src/css/vars.css';
+@import '../src/css/reset.css';
+@import '../src/css/header.css';
+@import '../src/css/detail.css';
+@import '../src/css/sidebarItem.css';
+@import '../src/css/structureMainPage.css';
+@import '../src/css/previewCrime.css';
+@import '../src/css/crimePlan.css';
+@import '../src/css/succes.css';
+@import '../src/css/home.css';
+@import '../src/css/stepTwo.css';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/*stylelint-disable*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*stylelint-ensable*/
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-image: url(./assets/achtergrond.svg);
+  height: 100%;
+  font-family: industry-inc-base, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.middle {
+  align-items: center;
+  flex-direction: column;
+}
+
+.date {
+  font-family: industry-inc-base, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--mainColor);
+  font-size: 4vw;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--grey);
+  text-align: center;
+
+  @media (--only-biggerSmall-screen) {
+    padding: 2rem;
+    margin-top: 3rem;
+    font-size: 5vw;
+  }
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.margin-left {
+  margin-right: 2rem;
+  margin-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden:checked+img {
+    border: 1rem solid var(--mainColor);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  color: var(--mainColor);
+}

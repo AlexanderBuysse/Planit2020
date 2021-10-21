@@ -1,0 +1,222 @@
+
+.main-detail {
+  background-color: var(--mainColor);
+  padding: 4rem;
+  font-family: industry-inc-base, sans-serif;
+  width: 80vw;
+  margin: 0 auto 4rem;
+}
+
+.spionage {
+  width: 100%;
+  padding-bottom: 1vw;
+}
+
+.title-crime {
+  color: var(--darkColor);
+  font-size: 4vw;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  @media screen (--only-medium-screen) {
+    font-size: 3rem;
+  }
+}
+
+.whitebox {
+  background-color: var(--white);
+  padding: 5rem;
+}
+
+.title-type {
+  text-align: center;
+  color: var(--darkColor);
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  @media (--only-biggerSmall-screen) {
+    font-size: 3rem;
+  }
+}
+
+.sectionwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  @media (--only-biggerMedium-screen) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--white);
+  }
+}
+
+.section {
+  background-color: #b1b1b1;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  width: 30vw;
+
+  @media (--only-smallest-screen) {
+    width: 50vw;
+    height: 25rem;
+  }
+
+  @media (--only-small-screen) {
+    width: 25rem;
+  }
+
+  @media (--only-biggerSmall-screen) {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  @media (--only-biggerMedium-screen) {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  @media (--only-big-screen) {
+    width: 25rem;
+  }
+}
+
+.section-title {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  background-color: var(--darkColor);
+  padding: 1rem;
+  padding-top: 1.5rem;
+
+  @media (--only-biggerSmall-screen) {
+    font-size: 2rem;
+  }
+}
+
+.benodigdheden-list {
+  width: 10rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-top: -.4rem;
+}
+
+/*stylelint-disable*/
+.progresbar-detail[value] {
+  margin-top: 2rem;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.crime__chanseofsucces-bar {
+  -webkit-appearance: none;
+  appearance: none;
+}
+/*stylelint-enable*/
+
+progress[value]::-webkit-progress-bar {
+  background-color: var(--grey);
+  border-radius: .5rem;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: var(--darkColor);
+  border-radius: .5rem;
+}
+
+.progresbardetail-wrapper {
+  width: 17rem;
+  margin: 0 auto;
+}
+
+.procent {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.buit-section {
+  background-color: var(--darkColor);
+  margin-left: -4rem;
+  margin-right: -4rem;
+  margin-bottom: -4rem;
+  padding: 2rem;
+  color: var(--mainColor);
+}
+
+.buit-wrapper {
+  font-size: var(--titleFontSize);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.money {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
+.auto {
+  width: 100%;
+}
+
+.bankoverval {
+  margin-left: 6rem;
+  padding-bottom: 1rem;
+}
+
+.container-checkbox .checkbox-custom {
+  position: absolute;
+  background-color: transparent;
+}
+
+.detail-date {
+  font-size: 2rem;
+  background-color: var(--grey);
+  color: var(--mainColor);
+  padding: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: -9rem;
+
+  @media (--only-medium-screen) {
+    margin-left: -3rem;
+  }
+}
+
+.museumroof {
+  width: 12vw;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.section-text {
+  @media (--only-smallest-screen) {
+    margin-top: 1rem;
+  }
+
+  @media (--only-biggerSmall-screen) {
+    margin: 1rem;
+    font-size: var(--mainFontSize);
+  }
+}

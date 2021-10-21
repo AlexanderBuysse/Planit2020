@@ -1,0 +1,21 @@
+:root {
+  --mainColor: #f2e054;
+  --darkColor: #343333;
+  --darkestColor: #212020;
+  --importantColor: #f2b554;
+  --grey: #b1b1b1;
+  --white: white;
+  --margin: 1.2rem;
+  --borderShadow: .8rem .8rem rgba(255, 255, 255, .73);
+  --mainFontSize: 1.5rem;
+  --titleFontSize: 2rem;
+}
+
+@custom-media --only-smallest-screen (width >= 400px);
+@custom-media --only-small-screen (width >= 500px);
+@custom-media --only-biggerSmall-screen (width >= 700px);
+@custom-media --only-medium-screen (width >= 900px);
+@custom-media --only-biggerMedium-screen (width >= 1000px);
+@custom-media --only-big-screen (width >= 1160px);
+@custom-media --only-stepTwoSmall-screen (width >= 650px);
+@custom-media --only-stepTwoMedium (width >= 920px);

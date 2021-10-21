@@ -1,0 +1,22 @@
+.big__header {
+  height: 40rem;
+  flex-direction: column;
+}
+
+.planned {
+  margin-top: 2rem;
+}
+
+.succes_button {
+  width: 15rem;
+  margin: 0 auto;
+
+  @media (--only-biggerSmall-screen) {
+    width: 23rem;
+  }
+}
+
+.succes-wrapper {
+  width: 15rem;
+  margin: 0 auto;
+}
